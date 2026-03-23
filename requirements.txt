@@ -1,0 +1,9 @@
+# Web Vulnerability Scanner — Requirements
+# Install with: pip install -r requirements.txt
+
+requests==2.31.0        # HTTP requests for scanning
+beautifulsoup4==4.12.2  # HTML parsing for crawling
+urllib3==2.1.0          # URL utilities (comes with requests)
+
+# Optional but recommended:
+# pip install colorama   # Windows color terminal support
